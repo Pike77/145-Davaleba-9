@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    margin-left: 600px;
+}
+.satauri{
+    width: 750px;
+    height: 100px;
+    background-color: #000;
+    margin-top: 58px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom:64px;
+}
+.satauri p{
+    color: #fff;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 36px;
+}
+.reg{
+    width: 750px;
+}
+.reg input, .reg textarea{
+    width: 100%;
+    margin-bottom: 38px;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+.reg input::placeholder{
+    color: #000;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-weight: 900;
+}
+.pirveli{
+    width: 40px;
+    height: 40px;
+    margin-left: -300px;
+    margin-top: 45px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.meore{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: -76px;
+}
+.shekveta{
+    width: 750px;
+    background-color: #01AF8C;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 100px;
+}
+.shekveta p, .shekveta a{
+    font-size: 20px;
+    text-align: center;
+    color: #000
+}
+
+
+/* ------------------meore gverdi-----------------------*/
+
+
+.madloba{
+    width: 750px;
+    height: 394px;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #021010;
+    text-align: center;
+    color: #fff;
+}
